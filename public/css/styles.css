@@ -1,0 +1,87 @@
+textarea{
+    resize: none;
+}
+
+.main-heading{
+    color: #e63946;
+}
+
+.blog-heading{
+    font-size: 1.5rem;
+}
+
+.home-heading{
+    font-size: 5rem;
+    margin-top: 100px;
+}
+
+.home-text{
+    font-size: 1.5rem;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav  li a{
+    font-size: 0.8rem;
+}
+.navbar-nav  li a:hover {
+    color: #e63946 !important;
+}
+
+.btnContainer{
+    margin-top: 50px;
+}
+
+.home-btn{
+    margin: 10px 20px;
+    width: 200px;
+}
+
+.footer {
+	position: fixed;
+	text-align: center;
+    padding-top: 1px;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #e63946;
+    margin-top: 50px;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+    color: #fff;
+}
+
+.flex-center{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.backBox{
+    height: 150px;
+}
+
+@media screen and (max-width:768px) {
+    .mob-center{
+        text-align: center;
+    }
+} 

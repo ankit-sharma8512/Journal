@@ -1,0 +1,11 @@
+<%- include("partials/header"); %>
+<div class="container flex-center">
+  <h1 class="main-heading home-heading"><%= prompt %></h1>
+  <p>Redirecting to home page</p>
+</div>
+<script>
+  setTimeout(() => {
+    window.location.assign("/");
+  }, 3000);
+</script>
+<%- include("partials/footer"); %>

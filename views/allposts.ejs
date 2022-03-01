@@ -1,0 +1,20 @@
+<%- include("partials/header"); %>
+<div class="container">
+  <% if(posts.length === 0) { %>
+  <h1 class="text-center home-text my-5">It's Empty</h1>
+  <% } else { %> <% posts.forEach(function(post){ %>
+  <h1 class="blog-heading"><%= post.title %></h1>
+  <p class="main-heading"><%= post.date %></p>
+  <p>
+    <%= post.body.substr(0,100) %> <% if(post.body.length>100) { %> ...<a
+      href="/posts/<%= post._id%>"
+      >Read More</a
+    >
+    <%}%>
+  </p>
+  <% }) %> <% } %>
+  <div class="text-center backBox">
+    <a href="/" class="btn btn-dark my-3 me-4">Back to Home</a>
+  </div>
+</div>
+<%- include("partials/footer"); %>

@@ -1,0 +1,10 @@
+<%- include("partials/header"); %>
+<div class="container">
+  <h1 class="main-heading mob-center"><%= post.title%></h1>
+  <p class="main-heading mob-center"><%= post.date %></p>
+  <p><%= post.body%></p>
+  <div class="text-center backBox">
+    <a href="/allposts" class="btn btn-dark my-3 me-4">Back</a>
+  </div>
+</div>
+<%- include("partials/footer"); %>

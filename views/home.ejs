@@ -1,0 +1,14 @@
+<%- include("partials/header"); %>
+<div class="container text-center my-5">
+  <h1 class="main-heading home-heading">Hello <%= name %></h1>
+  <p class="home-text">Welcome to your Journal</p>
+  <div class="btnContainer">
+    <a href="/compose" class="btn btn-lg btn-outline-danger home-btn"
+      >Add New Post</a
+    >
+    <a href="/allposts" class="btn btn-lg btn-outline-danger home-btn"
+      >See All Posts</a
+    >
+  </div>
+</div>
+<%- include("partials/footer"); %>
